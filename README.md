@@ -18,7 +18,7 @@ O projeto está configurado para rodar com um banco de dados MySQL com as seguin
 . Passo a seguir a posição 'Datasources' que leva as configurações de conexão com o BD do cake.
 . As posições 'username', 'password', 'database' levam o nome de usuário do servidor, senha do servidor, e nome do banco de dados, respectivamente.
 
-
+\**
 'Datasources' => [
         'default' => [
             'className' => 'Cake\Database\Connection',
@@ -64,6 +64,8 @@ O projeto está configurado para rodar com um banco de dados MySQL com as seguin
 
             'url' => env('DATABASE_URL', null),
         ],
+        
+        **\
 ---------------------------------------------------------------------------------------------------------------------------------------        
         
 Para o banco de dados foi criado uma tabela com o nome de "tarefas" com os seguintes campos:
