@@ -36,7 +36,6 @@ O projeto está configurado para rodar com um banco de dados MySQL com as seguin
             'log' => false,
             'quoteIdentifiers' => false,
             //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
-
             'url' => env('DATABASE_URL', null),
         ],
         
