@@ -11,8 +11,8 @@ Na questão 3 foi observado que uma ordenação feita pelo banco de dados seria 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
+Por limitações da configuração da conta no github só é possível enviar 100 arquivos, entretanto quando é criado um projeto com o CakePHP são criado muitos arquivos, sendo assim todos os arquivos da questão 4 estão compactados em BDRTalentosQuestao4.rar. <br>
 Para a questão 4 foi utilizado o framework CakePHP 3.6.5 com um servidor Apache. <br>
-Por limitações da configuração da conta no github só é possível enviar 100 arquivos, por isso todos os arquivos da questão 4 estão compactados em BDRTalentosQuestao4.rar. <br>
 O projeto está configurado para rodar com um banco de dados MySQL com as seguintes configurações que são inseridas no arquivo config/app.php. <br>
 . Passo a seguir a posição 'Datasources' dentro do arquivo config/app.php que leva as configurações de conexão com o BD do cake. <br>
 . As posições 'username', 'password', 'database' levam o nome de usuário do servidor, senha do servidor, e nome do banco de dados, respectivamente. <br>
