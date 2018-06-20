@@ -1,9 +1,7 @@
 # ProvaBDRUira
 Questões da prova do candidato Uirá de Souza Carneiro para a BDR – Talentos Corporativos
 
-
-
-Paras as questões 1,2,3 foram criadas 3 pastas onde cada código php se encontram dentro da mesma.
+Paras as questões 1,2,3 foram criadas 3 pastas cada código php se encontra.
 
 Na questão 1 foi utilizado um "for" de 1 a 100, onde 3 "if's" verificariam se elas seriam múltiplos de 3, 5 ou 3 e 5. Imprimindo assim o resultado na tela.
 
@@ -14,6 +12,7 @@ Na questão 3 foi observado que uma ordenação feita pelo banco de dados seria 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 Para a questão 4 foi utilizado o framework CakePHP 3.6.5 com um servidor Apache.
+Por limitações da configuração da conta no github só é possível enviar 100 arquivos, por isso todos os arquivos da questão 4 estão compactados em BDRTalentosQuestao4.rar.
 O projeto está configurado para rodar com um banco de dados MySQL com as seguintes configurações que são inseridas no arquivo config/app.php.
 . Passo a seguir a posição 'Datasources' que leva as configurações de conexão com o BD do cake.
 . As posições 'username', 'password', 'database' levam o nome de usuário do servidor, senha do servidor, e nome do banco de dados, respectivamente.
@@ -42,7 +41,7 @@ O projeto está configurado para rodar com um banco de dados MySQL com as seguin
  
 ---------------------------------------------------------------------------------------------------------------------------------------        
         
-Para o banco de dados foi criado uma tabela com o nome de "tarefas" com os seguintes campos:
+Ainda para a questão 4 o banco de dados foi com criado uma tabela de nome "tarefas" com os seguintes campos:
 .id
 .titulo
 .descricao
