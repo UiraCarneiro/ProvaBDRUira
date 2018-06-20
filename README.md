@@ -11,11 +11,11 @@ Na questão 3 foi observado que uma ordenação feita pelo banco de dados seria 
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-Para a questão 4 foi utilizado o framework CakePHP 3.6.5 com um servidor Apache.
-Por limitações da configuração da conta no github só é possível enviar 100 arquivos, por isso todos os arquivos da questão 4 estão compactados em BDRTalentosQuestao4.rar.
-O projeto está configurado para rodar com um banco de dados MySQL com as seguintes configurações que são inseridas no arquivo config/app.php.
-. Passo a seguir a posição 'Datasources' que leva as configurações de conexão com o BD do cake.
-. As posições 'username', 'password', 'database' levam o nome de usuário do servidor, senha do servidor, e nome do banco de dados, respectivamente.
+Para a questão 4 foi utilizado o framework CakePHP 3.6.5 com um servidor Apache. <br>
+Por limitações da configuração da conta no github só é possível enviar 100 arquivos, por isso todos os arquivos da questão 4 estão compactados em BDRTalentosQuestao4.rar. <br>
+O projeto está configurado para rodar com um banco de dados MySQL com as seguintes configurações que são inseridas no arquivo config/app.php. <br>
+. Passo a seguir a posição 'Datasources' que leva as configurações de conexão com o BD do cake. <br>
+. As posições 'username', 'password', 'database' levam o nome de usuário do servidor, senha do servidor, e nome do banco de dados, respectivamente. <br>
 
 
 'Datasources' => [
@@ -41,13 +41,13 @@ O projeto está configurado para rodar com um banco de dados MySQL com as seguin
  
 ---------------------------------------------------------------------------------------------------------------------------------------        
         
-Ainda para a questão 4 o banco de dados foi com criado uma tabela de nome "tarefas" com os seguintes campos:
-.id
-.titulo
-.descricao
-.prioridade
+Ainda para a questão 4 o banco de dados foi com criado uma tabela de nome "tarefas" com os seguintes campos: <br>
+.id <br>
+.titulo <br>
+.descricao <br>
+.prioridade <br>
 
-Segue a baixo a SQL utilizada para a criação das tabelas
+Segue a baixo a SQL utilizada para a criação das tabelas <br>
 
 --
 -- Estrutura da tabela `tarefas`
